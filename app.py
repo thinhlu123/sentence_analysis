@@ -32,5 +32,5 @@ def analysis():
 
 if __name__ == "__main__":
     #app.run( host='172.29.64.182', port=274, debug = True, ssl_context="adhoc")
-	app.run(debug = True)
+	app.run()
 
