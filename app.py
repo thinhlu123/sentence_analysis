@@ -28,7 +28,7 @@ def checkWH():
 def analysis():
 	data = request.get_json()
 	res = analysis_sen(data['sentence'])
-	return jsonify(res)
+	return jsonify(resp = res)
 
 if __name__ == "__main__":
     #app.run( host='172.29.64.182', port=274, debug = True, ssl_context="adhoc")
