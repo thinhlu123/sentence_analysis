@@ -1,0 +1,4 @@
+flask
+json
+sentence_analysis
+uwsgi
