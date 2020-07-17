@@ -11,11 +11,11 @@ class separateEntity:
 
         self.matcher = Matcher(self.sp.vocab)
         
-        fW = open(str(path) + "\\rule-what.txt", "r")
+        fW = open(str(path) + "/rule-what.txt", "r")
         for lineW in fW:
             pattern = ast.literal_eval(lineW)
             self.matcher.add('WHAT_QUESTION', None, pattern)
-        fH = open(str(path) + "\\rule-how.txt", "r")
+        fH = open(str(path) + "/rule-how.txt", "r")
         for line in fH:
             pattern = ast.literal_eval(line)
             self.matcher.add('HOW_QUESTION', None, pattern)
