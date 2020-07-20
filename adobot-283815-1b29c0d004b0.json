@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "adobot-283815",
+  "private_key_id": "1b29c0d004b01c22cfc2989a60d50aeb4bc0a0a5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3j/yt5DYWeCJP\nUxnBP86+NqzAzHgb+OuWeEAdGpwK+A3iclyLyZHcmQlkyuZ+Vk0+DenHKpwtij5W\nlwMMQKPRvN/kbssrgE+JvEWpmJ+xCfarhyJdkyBm0+tCkSaQI+NDSOeTgFp8+P2G\n894ULG6I8ajkHC8XhP2PBNzOKzLK9JN+AGLAF03QN9slQKM6a6vXKBZn46Iibh2Z\nhRN8Hv94okMft5yKasZkYGFshlJWdfnaXx6kpztjJeP+5H+T5I5YniPeMIEcH1u7\noz0st1tEBN20xb2cTXOpBryJEuFl2xaevEKedonxDpTKZbE+JXUh6IhwSJhzGAOW\nOv4j+DGHAgMBAAECggEABqfm6UXpcX52UrADCA8l558YkSkY1dLRyrPzhy/20S2r\nZeGbBMqQn7zA1XHHUnS9+kO2OALjL4I1aR2yqO1obet4/Cce9iXXPHmiK63IDzr6\n7Gn1pLT4AM0rA6U7DmZEEFAtbXDDAd25ZlJODtHe9CznCyu7yBDfbMx9VnsZ2A1f\nLtfEfGsCD+/JppciVOfNLfrNv+mL6oLDemBMDJiYLdq4pq5WiRdMiQUnc10T9uDT\n057cZ/3Pl83Fqu+PMl3hCMSC3E+VxcpwAH+wwuv4kLbRv+qi4JVGHdPxwmdSxJmX\nGDGUBdwShb8yVdsK7zutOWy0qKdRtI2EYXXZE3mXOQKBgQDb6DsbRtNap6O3lxIH\nmqA+4LV5K8O/Eo7vtfA6VBaKJXI/ACZSl9KyTIe4qOX4g4gOLJ2iMBJrG/mT6I8n\nmo5TCwLphln0HM8tbjfpiYPK1jVciXwoCvK9oNyC23UWECJZ6XvDTwP9iRythOGW\nZEMcHIefKPRlflYXOGz49obtRQKBgQDVsKwbZH4JLVW8hpem7nVXS/yAJIkxTZAt\n37o4ZnuATQWWl2Y1uF3NLE/45QmH5pgqCp2ua/CJJYW2iHc6ZHJ8Ot/kLdj7z1nm\nGE5bAT3jvMU4aJ2QMZElhTtTrNp2j3Yxi6HKBu+CQ1jrXA/+4jigE0h70ruLV/Oz\nhhtP1bcSWwKBgDZhzNQnBLeDg4IwUt4ciApkqZwojYTgAwcWuCzEhLpvHjykPdXp\nA8riECJDanO1m1zd/bGRL8zbIzJHrbc+innQ3EyB1BcBVN7IRf1z62qq5JFY0qJY\nasUoVb/qo57sKIKRsfCPxs3ZLYVfuiXl746xI3zhtOawgnvFkXVUCfP9AoGBAKMz\nHv58rVVM7mHhWQkArVVSjzE+thiVaDvg1lQk0MWYDWCJmGIGwHzmDt3D7peAIU5a\ndTq07SuRIKHbb1OFS3pdbIjUCxelsL7uaUlPlXjMvsLqAwwRDw1cx4aMSPyrbFVC\nkvm8ekc+MDbwRLchBqYalA0dUGaHcXP2Q/2g9wRpAoGATdS1MEPaVEVbehpfJ8sv\nyLQ/6KMnKmhggECjVplrjci4X2Iqc3TS5tKtbP59048B/iJW+yofd+iQotlPLTZ7\noZrSmtCzm52Abr7vYq2l2PT7SNKC5H4g885C7H7yM9HrSwgYQbOIgl5QmeTSXILM\n+wg2bV5bd7hqlcG9pUseO84=\n-----END PRIVATE KEY-----\n",
+  "client_email": "adobot@adobot-283815.iam.gserviceaccount.com",
+  "client_id": "105994812772114179562",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adobot%40adobot-283815.iam.gserviceaccount.com"
+}

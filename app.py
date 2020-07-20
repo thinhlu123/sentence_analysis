@@ -28,6 +28,7 @@ def checkWH():
 def analysis():
 	data = request.get_json()
 	res = analysis_sen(data['sentence'])
+	print(data['sentence'])
 	return jsonify(resp = res)
 
 if __name__ == "__main__":

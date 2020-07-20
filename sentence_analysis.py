@@ -2,6 +2,7 @@ import spacy
 from spacy.matcher import Matcher
 import ast
 import re
+from predict import get_prediction
 
 import pathlib
 path = pathlib.Path(__file__).parent.absolute()
@@ -49,20 +50,22 @@ class separateEntity:
         return title[:-1]
 
     def checkWHQuestion(self, doc):
-        sen = self.sp(doc)
-        what = re.search(r'\bwhat\b', sen.text)
-        if what: return "WHAT_QUESTION"
+        dataResp = get_prediction(doc)
+        scoreArr = []
+        for data in dataResp.payload:
+            score = data.classification.score
+            if score > 0.54:
+                scoreArr.append(score)
+        if len(scoreArr) > 0:
+            maxScore = max(scoreArr)
+            for data in dataResp.payload:
+                score = data.classification.score
+                if score == maxScore:
+                    return data.display_name
 
-        how = re.search(r'\bhow\b', sen.text)
-        if how: return "HOW_QUESTION"
+        sen = self.sp(doc)
+        
         if len(sen) <= 0 : return "NONE" 
-        for word in sen:
-            if word.tag_ == "WP" or word.tag_ == "WRB":
-                if word.text.lower() == "what": return "WHAT_QUESTION"
-                else: 
-                    if word.text.lower() == "how": return "HOW_QUESTION"
-                    else: return "NONE"
-            if "'t" in word.text: return "NONE"
         
         #Xét riêng cho what vì khi rule chỉ có 1 chữ độ chính xác rất thấp
         #Nếu câu chỉ có 1 chữ
