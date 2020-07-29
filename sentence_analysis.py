@@ -50,18 +50,18 @@ class separateEntity:
         return title[:-1]
 
     def checkWHQuestion(self, doc):
-        dataResp = get_prediction(doc)
-        scoreArr = []
-        for data in dataResp.payload:
-            score = data.classification.score
-            if score > 0.54:
-                scoreArr.append(score)
-        if len(scoreArr) > 0:
-            maxScore = max(scoreArr)
-            for data in dataResp.payload:
-                score = data.classification.score
-                if score == maxScore:
-                    return data.display_name
+        # dataResp = get_prediction(doc)
+        # scoreArr = []
+        # for data in dataResp.payload:
+        #     score = data.classification.score
+        #     if score > 0.54:
+        #         scoreArr.append(score)
+        # if len(scoreArr) > 0:
+        #     maxScore = max(scoreArr)
+        #     for data in dataResp.payload:
+        #         score = data.classification.score
+        #         if score == maxScore:
+        #             return data.display_name
 
         sen = self.sp(doc)
         
